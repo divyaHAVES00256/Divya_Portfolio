@@ -71,8 +71,8 @@ Developed a hybrid ML pipeline combining structured features and TF-IDF embeddin
 ---
 
 ## 🌈 Live Demo
-🔗 **Visit Now:** [[https://your-portfolio.vercel.app](https://divya-portfolio-beta.vercel.app/)]
-*(Hosted on Vercel with automatic GitHub deployment)*  
+🔗 **Visit Now:** [https://divya-portfolio-beta.vercel.app](https://divya-portfolio-beta.vercel.app)  
+*(Hosted on Vercel with automatic GitHub integration and continuous deployment)*  
 
 ---
 
