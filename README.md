@@ -1,36 +1,50 @@
-# 🌟 My Portfolio
+<h1 align="center">🌐 My Portfolio</h1>
 
-Welcome to my personal portfolio!  
-This project showcases my skills, projects, and experience as a [your role, e.g., Web Developer, Data Scientist, Designer].
-
----
-
-## 🚀 Features
-- **About Me** – Learn more about my background and skills.
-- **Projects** – A curated collection of my work with descriptions and links.
-- **Contact** – Easy ways to get in touch.
+<p align="center">
+  <b>🚀 AI/ML Developer | Full-Stack Web Developer | Tech Enthusiast</b><br/>
+  Showcasing my projects, skills, and journey in AI & web development.
+</p>
 
 ---
 
-## 🛠️ Built With
-- [Next.js](https://nextjs.org/) / [React](https://reactjs.org/)  
-- [Tailwind CSS](https://tailwindcss.com/)  
-- [Other tools/libraries you used]
+## ✨ Overview
+This portfolio highlights my skills, featured projects, and professional journey.  
+It’s built to reflect my passion for **Machine Learning**, **AI**, and **Web Development** — blending creativity with functionality.
 
 ---
 
-## 📸 Screenshots
-(Add screenshots or a GIF demo here if possible)
+## 🧠 Features
+✅ **About Me** – My background, goals, and what drives me  
+✅ **Skills** – Technical expertise and tools I use  
+✅ **Projects** – AI and web projects I’ve built or contributed to  
+✅ **Contact** – Easy ways to reach me  
 
 ---
 
-## 🔗 Live Demo
-Check it out here: [Your Portfolio Link](https://your-portfolio-url.com)
+## ⚙️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lucide%20React-000000?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
+
+🧩 Additional Tools: ESLint, Git, VS Code, Figma (for design drafts)
 
 ---
 
-## 📂 Getting Started
+## 🖥️ Live Demo
+🚀 **Check it out here:** [https://your-portfolio.vercel.app](https://your-portfolio.vercel.app)
 
-### Clone the repo
+*(Deployed free with Vercel — auto-updates on each Git push!)*
+
+---
+
+## 🧰 Getting Started
+
+### 1️⃣ Clone this repo
 ```bash
 git clone https://github.com/your-username/portfolio.git
+cd portfolio
