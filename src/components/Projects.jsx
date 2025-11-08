@@ -53,26 +53,32 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Social Media Platform",
+      title: "Legal RAG Chatbot",
       description:
-        "A full-featured social media platform with real-time messaging, content sharing, and advanced user engagement features.",
+        "Built a Retrieval-Augmented Generation chatbot using Mistral-7B and MiniLM embeddings to answer Indian legal queries, with FAISS-based semantic search and optimized 4-bit quantized inference for efficiency.",
       image:
         "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Next.js", "GraphQL", "Prisma", "AWS", "TypeScript"],
-      githubUrl: "https://github.com/divyaHAVES00256/",
+      technologies: [
+        "Python",
+        "Hugging Face",
+        "FAISS",
+        "SentenceTransformers",
+        "Gradio",
+        "Flask",
+      ],
+      githubUrl: "https://github.com/divyaHAVES00256/NyayaSetu-backend",
       liveUrl: "https://github.com/divyaHAVES00256/",
       date: "2025",
     },
     {
       id: 6,
-      title: "Learning Management System",
+      title: "Smart Product Pricing Challenge",
       description:
-        "An educational platform with course management, video streaming, progress tracking, and interactive learning features.",
+        "Developed a hybrid ML pipeline combining structured features and TF-IDF embeddings to predict e-commerce prices, achieving ~59.6% SMAPE with an optimized LightGBM regressor.",
       image:
         "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Angular", "NestJS", "MySQL", "AWS S3", "WebRTC"],
-      githubUrl: "https://github.com/divyaHAVES00256/",
-      liveUrl: "https://github.com/divyaHAVES00256/",
+      technologies: ["Python", "Scikit-learn", "LightGBM", "Pandas", "NumPy"],
+      githubUrl: "https://github.com/divyaHAVES00256/Amazon_ML_Hackathon_2025",
       date: "2025",
     },
   ];

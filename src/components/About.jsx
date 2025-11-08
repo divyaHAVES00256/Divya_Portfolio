@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code, Palette, Zap, Heart } from "lucide-react";
+import { Code, Palette, Zap, Heart, Cpu } from "lucide-react";
 import "./About.css";
 
 const About = () => {
@@ -15,10 +15,10 @@ const About = () => {
         "Writing maintainable, scalable code following best practices and modern standards.",
     },
     {
-      icon: <Palette size={30} />,
-      title: "Creative Design",
+      icon: <Cpu size={30} />,
+      title: "AI & ML",
       description:
-        "Crafting beautiful, intuitive interfaces that enhance user experience.",
+        "Developing and experimenting with ML models for prediction, automation, and insight generation.",
     },
     {
       icon: <Zap size={30} />,
@@ -27,10 +27,10 @@ const About = () => {
         "Optimizing applications for speed, accessibility, and seamless performance.",
     },
     {
-      icon: <Heart size={30} />,
-      title: "User-Centered",
+      icon: <Code size={30} />,
+      title: "Full-Stack Development",
       description:
-        "Putting users first in every design and development decision.",
+        "Creating intelligent, data-powered web apps that combine AI with modern web technologies.",
     },
   ];
 
@@ -90,11 +90,11 @@ const About = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="about-description"
             >
-              With experience in web development, I specialize
-              in creating modern, responsive applications using cutting-edge
-              technologies. My journey began with a curiosity for
-              problem-solving and has evolved into a passion for crafting
-              exceptional digital experiences.
+              With experience in web development, I specialize in creating
+              modern, responsive applications using cutting-edge technologies.
+              My journey began with a curiosity for problem-solving and has
+              evolved into a passion for crafting exceptional digital
+              experiences.
             </motion.p>
 
             <motion.p
@@ -116,16 +116,16 @@ const About = () => {
               className="about-stats"
             >
               <div className="stat">
-                <span className="stat-number gradient-text">50+</span>
-                <span className="stat-label">Projects Completed</span>
+                <span className="stat-number gradient-text">25+</span>
+                <span className="stat-label">Personal Projects</span>
               </div>
               <div className="stat">
-                <span className="stat-number gradient-text">5+</span>
-                <span className="stat-label">Years Experience</span>
+                <span className="stat-number gradient-text">2+</span>
+                <span className="stat-label">Years of Coding</span>
               </div>
               <div className="stat">
-                <span className="stat-number gradient-text">30+</span>
-                <span className="stat-label">Happy Clients</span>
+                <span className="stat-number gradient-text">100%</span>
+                <span className="stat-label">Curiosity & Growth</span>
               </div>
             </motion.div>
           </motion.div>

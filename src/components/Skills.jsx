@@ -9,6 +9,7 @@ import {
   Cloud,
   GitBranch,
   Zap,
+  Brain,
 } from "lucide-react";
 import "./Skills.css";
 
@@ -23,10 +24,9 @@ const Skills = () => {
       skills: [
         { name: "React", level: 95 },
         { name: "Vue.js", level: 85 },
-        { name: "TypeScript", level: 90 },
+        { name: "JavaScript", level: 90 },
         { name: "Next.js", level: 88 },
         { name: "Tailwind CSS", level: 92 },
-        { name: "SASS/SCSS", level: 85 },
       ],
     },
     {
@@ -37,7 +37,7 @@ const Skills = () => {
         { name: "Python", level: 85 },
         { name: "Express.js", level: 88 },
         { name: "Django", level: 80 },
-        { name: "GraphQL", level: 85 },
+        { name: "Flask", level: 85 },
         { name: "REST APIs", level: 92 },
       ],
     },
@@ -46,23 +46,24 @@ const Skills = () => {
       icon: <Database size={32} />,
       skills: [
         { name: "MongoDB", level: 88 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "Redis", level: 80 },
-        { name: "AWS", level: 82 },
+        { name: "SQLite", level: 85 },
+        { name: "MySQL", level: 80 },
+        { name: "Kubernetes", level: 82 },
         { name: "Docker", level: 85 },
         { name: "Firebase", level: 88 },
       ],
     },
     {
-      title: "Design & Tools",
-      icon: <Palette size={32} />,
+      title: "Machine Learning",
+      icon: <Brain size={32} />,
       skills: [
-        { name: "Figma", level: 90 },
-        { name: "Adobe XD", level: 85 },
-        { name: "Git", level: 92 },
-        { name: "Webpack", level: 80 },
-        { name: "Jest", level: 85 },
-        { name: "Cypress", level: 82 },
+        { name: "Python", level: 95 },
+        { name: "Scikit-learn", level: 90 },
+        { name: "TensorFlow", level: 85 },
+        { name: "PyTorch", level: 80 },
+        { name: "OpenCV", level: 75 },
+        { name: "Pandas", level: 92 },
+        { name: "NumPy", level: 90 },
       ],
     },
   ];
@@ -192,24 +193,24 @@ const Skills = () => {
           <div className="highlight-item">
             <Zap className="highlight-icon" />
             <div className="highlight-content">
-              <h4>Fast Development</h4>
-              <p>Rapid prototyping and efficient development workflows</p>
+              <h4>Smart Solutions</h4>
+              <p>Building intelligent apps powered by AI and data.</p>
             </div>
           </div>
 
           <div className="highlight-item">
             <Smartphone className="highlight-icon" />
             <div className="highlight-content">
-              <h4>Responsive Design</h4>
-              <p>Mobile-first approach with seamless user experiences</p>
+              <h4>Machine Learning</h4>
+              <p>Designing, training, and deploying ML models effectively.</p>
             </div>
           </div>
 
           <div className="highlight-item">
             <Cloud className="highlight-icon" />
             <div className="highlight-content">
-              <h4>Cloud Solutions</h4>
-              <p>Scalable architecture and modern deployment practices</p>
+              <h4>Full-Stack Web</h4>
+              <p>Creating fast, scalable, and responsive web apps.</p>
             </div>
           </div>
 

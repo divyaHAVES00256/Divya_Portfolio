@@ -199,7 +199,7 @@ const Hero = () => {
             </motion.a>
 
             <motion.a
-              href="mailto:hello@example.com"
+              href="mailto:divyansut00256@gmail.com"
               whileHover={{ scale: 1.2, color: "#00f5ff" }}
               whileTap={{ scale: 0.9 }}
               className="social-link"
@@ -258,23 +258,6 @@ const Hero = () => {
           </div>
         </motion.div>
       </div>
-
-      <motion.button
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.5 }}
-        whileHover={{ y: -5 }}
-        onClick={scrollToAbout}
-        className="scroll-indicator"
-        aria-label="Scroll to next section"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          <ArrowDown size={24} />
-        </motion.div>
-      </motion.button>
     </section>
   );
 };
