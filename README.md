@@ -80,5 +80,5 @@ Developed a hybrid ML pipeline combining structured features and TF-IDF embeddin
 
 ### 1️⃣ Clone this repo
 ```bash
-git clone https://github.com/your-username/portfolio.git
-cd portfolio
+git clone https://github.com/divyaHAVES00256/Divya_Portfolio.git
+cd Divya_Portfolio
