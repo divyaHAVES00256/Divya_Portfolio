@@ -75,10 +75,3 @@ Developed a hybrid ML pipeline combining structured features and TF-IDF embeddin
 *(Hosted on Vercel with automatic GitHub integration and continuous deployment)*  
 
 ---
-
-## ⚙️ Getting Started
-
-### 1️⃣ Clone this repo
-```bash
-git clone https://github.com/divyaHAVES00256/Divya_Portfolio.git
-cd Divya_Portfolio
